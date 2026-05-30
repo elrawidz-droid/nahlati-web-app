@@ -24,7 +24,7 @@ def analyze_sentiments(posts):
 
 if st.button("🚀 سحب وتحليل المجموعة"):
     if not api_token or not group_url:
-        st.error("يرجى إدخال المفتاح والرابط!")
+        st.error(apify_api_ZyjlAyMZrJcy4S94BBW4gW6EdmF35o2T7WYC!")
     else:
         with st.spinner("جاري اختراق البيانات (بشكل قانوني) وتحليلها..."):
             try:
